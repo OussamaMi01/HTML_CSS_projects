@@ -11,7 +11,6 @@ These projects demonstrate my skills in building responsive websites using HTML,
 
 - HTML5
 - CSS3
-- JavaScript
 
 ## How to Use
 
