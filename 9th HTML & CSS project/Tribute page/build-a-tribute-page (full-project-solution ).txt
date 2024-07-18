@@ -1,0 +1,114 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tribute Page" />
+    <link rel="stylesheet" href="styles.css">
+    <title id="title">D.Norman Borlaug's tribute</title>
+
+    <body>
+     
+      <main id="main">
+         <h1>D.Norman Borlaug</h1>
+         <p>The man who saved a billion lives</p>
+        <div id="img-div">
+          <img id="image" src="https://bgri.cornell.edu/wp-content/uploads/2020/12/Borlaug-quote.png" />
+          <div id="img-caption">
+            <p >Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.</p></div>
+          <div id="tribute-info">
+            <h2>Here's a time line of Dr. Borlaug's life:</h2>
+            <li><b>1914</b> - Born in Cresco, Iowa</li><br>
+            <li><b>1933</b> - Leaves his family's farm to attend the University of Minnesota, thanks to a Depression era program known as the "National Youth Administration"</li><br>
+            <li><b>1935 </b>- Has to stop school and save up more money. Works in the Civilian Conservation Corps, helping starving Americans. "I saw how food changed them", he said. "All of this left scars on me."</li><br>
+            <li><b>1970 </b>- receives the Nobel Peace Prize</li><br>
+            <li><b>1983</b> - helps seven African countries dramatically increase their maize and sorghum yields </li><br>
+            </div>
+         <p id="more-info"><b>If you have time, you should read more about this incredible human being on his </b><a id="tribute-link" href="https://fr.wikipedia.org/wiki/Norman_Borlaug" target="_blank">Wikipedia entry.</a></p>   
+         </main>
+      </body>
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  background-color: #da5e ;
+  justify-content: center;
+}
+#img-div{
+  background-color:white ;
+  margin: 1px;
+  margin-bottom: 1px;
+  padding: 40px 40px 1px ; 
+  font-size: 1.2rem;
+  font-family: arial;
+
+  border:none;
+  border-radius: 8px;
+}
+
+img{
+  margin: auto;
+  padding: auto;
+  display: block;
+  justify-content: center;
+  max-width:100%;
+  height: auto;
+}
+
+h1{
+  margin: auto;
+  padding:  10px ;
+  display: flex;
+  justify-content: center;
+}
+
+p{
+  margin: auto;
+  padding:  10px ;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+}
+#tribute-info{
+  margin: 40px;
+  padding: auto;
+  display: bottom;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-family: arial;
+  font-style:  italic;
+  
+}
+h2 {
+  margin: 40px;
+  padding: auto;
+ 
+  
+  font-size: 1.5rem;
+  font-family: arial;
+  font-style:  italic;
+  
+}
+
+li{
+  margin: auto;
+  padding: 1px;
+  display: list;
+  font-size: 1.2rem;
+  font-family:sans-serif;
+  
+}
+#more-info{
+  font-size: 1.2rem;
+}
+a{
+  color:#445ef8;
+}
+
+** end of undefined **
+

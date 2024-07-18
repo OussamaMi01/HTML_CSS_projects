@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out this form with the required information</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label"  for="name">Name: <input id="name" name="name" type="text" placeholder="Example: John Doe" required /></label>
+      
+        <label id="email-label"  for="emaill">Your Email: <input id="email" name="email" type="email" placeholder="Example: JohnDhoe21@gmail.com" required /></label>
+        
+        <label id="number-label" for="number">Age (years): <input id="number" type="number" name="age" min="13" max="120" accept="number" placeholder="Example: 21" /></label>
+      </fieldset> 
+        <fieldset>
+        <legend>Would you recommend us to a friend?</legend>
+        <label for="definitly"><input id="definitly" type="radio" name="recommendation" class="inline" value="definitly" /> Definitly</label>
+        <label for="maybe"><input id="maybe" type="radio" name="recommendation" class="inline" value="maybe" /> Maybe</label>
+        <label for="definitly"><input id="definitly" type="radio" name="recommendation" class="inline" value="not-sure" /> Not sure</label>
+      </fieldset>
+      <fieldset>
+        <label for="referrer">What is your favorite feature of freeCodeCamp?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Challenges</option>
+            <option value="2">Projects</option>
+            <option value="3">Community</option>
+            <option value="4">Open source</option>
+          </select>
+        </label>
+</fieldset>
+<fieldset>
+        <legend>What would you like to see improved?(Check all that apply)</legend>
+        <label for="choice1"><input id="choice1" type="checkbox" name="choice" class="inline" value="1"  /> Front-end Projects
+</label>
+        <label for="choice2"><input id="choice2" type="checkbox" name="choice" class="inline" value="2"/> Back-end Projects</label>
+        <label for="choice3"><input id="choice3" type="checkbox" name="choice" class="inline" value="3" /> Additional Courses</label>
+<label for="choice4"><input id="choice4" type="checkbox" name="choice" class="inline" value="4" /> Gitter help rooms</label>
+            
+</fieldset>
+
+      <fieldset>
+        <label for="suggestion" >Any comments or suggestions ?
+          <textarea id="suggestion" name="user_suggestions" rows="3" cols="20" placeholder="Your comment here..."></textarea>
+        </label>
+      </fieldset>
+  <fieldset>
+      <input id="submit" type="submit" value="Submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
